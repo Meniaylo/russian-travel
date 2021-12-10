@@ -1,9 +1,14 @@
 .header__logo {
   text-decoration: none;
   line-height: 0;
+  transition: .2s ease-in-out;
 }
 
-@media screen (max-width: 767px) {
+.header__logo:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
   .header__logo {
   width: 142px;
   height: 42px;
