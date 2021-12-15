@@ -1,17 +1,12 @@
 .header__lang-link {
   font-size: 24px;
   line-height: 28px;
-  display: inline;
-  margin: 0;
-  padding: 0 18px 0 0;
-}
-
-.header__lang-link:last-of-type {
-  padding: 0;
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {
-  .header__lang-link {
+  .header__lang-item {
     font-size: 18px;
     line-height: 20px;
   }
