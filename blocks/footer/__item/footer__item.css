@@ -1,6 +1,7 @@
 .footer__item {
-  display: inline;
+  display: inline-block;
   margin-right: 18px;
+  word-spacing: 0;
 }
 
 .footer__item:last-of-type {
